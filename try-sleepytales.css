@@ -1,0 +1,1644 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: w;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 95vw;
+  margin: 0 auto;
+}
+
+
+nav {
+  background-color: white;
+  border-bottom: .10rem solid rgba(0, 0, 0, 0.132);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+ /* position: fixed;
+  color: white;  */
+}
+
+.nav-logo {
+  max-width: 100%;
+  width: 50%;
+
+}
+
+.navbar-link {
+  display: flex;
+  justify-items: center;
+
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+ul a {
+  color: black;
+  text-decoration: none;
+}
+
+
+button {
+  border-radius: 0.25rem;
+}
+
+
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu button {
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+}
+
+input[type="checkbox"]:checked~.dropdown-content {
+  display: block;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: hsl(hue, saturation, lightness);
+  box-shadow: 2px 2px 5px black;
+  align-content: center;
+  top: 3rem;
+  right: 0.10rem;
+  border-radius: 10px 15px;
+  font-size: 15px;
+}
+
+.dropdown-content li {
+  display: block;
+  color: black;
+  padding: 1rem;
+}
+
+
+.dropdown-content li :hover {
+  background-color: gray;
+
+}
+
+/* HERO SECTION STYLES */
+
+.hero_section {
+  width: 100%;
+}
+
+.hero_section_main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero_section_text_details {
+  display: grid;
+  place-items: center;
+
+}
+
+.sec-image img {
+  max-width: 100%;
+  object-fit: cover;
+  height: 0 auto;
+}
+
+.hero_section_text_body>p:first-child {
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+.hero_section_text_body h1 {
+  margin-bottom: 1rem;
+  font-size: 60px;
+
+}
+
+.hero_section_text_body>p:nth-child(3) {
+  margin-bottom: 1rem;
+  font-size: 24px;
+  color: rgb(75 85 99);
+  opacity: 1;
+}
+
+
+.hero_section_button {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+  border-radius: 3px auto;
+}
+
+.hero_section_button01 {
+  padding: 10px 15px;
+  font-size: 11px;
+  background-color: black;
+  color: white;
+}
+
+.hero_Demo_button {
+  display: flex;
+  gap: 2px;
+  color: #3b3b3b;
+  font-size: large;
+  padding: 10px 15px;
+}
+
+.bi-play {
+
+  font-size: 15px;
+  color: #171717;
+
+}
+
+
+.hero_customer_review {
+  display: flex;
+  gap: 2rem;
+}
+
+.check {
+  color: green;
+
+}
+
+.star-rating {
+  color: gold;
+}
+
+.hero_section_image {
+
+  max-width: 100%;
+}
+
+
+.Personalized_stories {
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+
+}
+
+.Personalized_text_stories>p:first-child {
+  margin: auto;
+  cursor: pointer;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 24px;
+  font-size: 1rem;
+  width: fit-content;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.Personalized_text_stories h2 {
+  font-size: 54px;
+  line-height: 52px;
+  width: 700px;
+  font-weight: 500;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+
+.Personalized_text_stories>p:nth-child(3) {
+  width: 700px;
+  margin: 1rem;
+  font-size: 14px;
+  color: rgb(75 85 99);
+  opacity: 1;
+  line-height: 28px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+video {
+  width: 800px;
+  max-width: 100%;
+}
+
+/* SECTION STYLE 002 */
+
+.Quick_container {
+  width: calc(100% - 50px);
+  margin: auto;
+  height: 100%;
+  text-align: center;
+}
+
+.Quick_text_content {
+
+  display: grid;
+  place-items: center;
+  width: 90vw;
+  font-weight: 200;
+  margin: auto;
+  text-align: center;
+}
+
+.Quick_text_content>p:first-child {
+  cursor: pointer;
+  background-color: #ffcfd2;
+  padding: 6px;
+  border-radius: 25px;
+  font-size: 15px;
+  width: 20%;
+  font-size: 1.2em;
+  font-weight: 200;
+  margin-top: 3px;
+  margin-bottom: 12px;
+}
+
+.Quick_text_content>h2 {
+  font-size: 52px;
+  line-height: 40px;
+  width: 54%;
+  font-weight: 100;
+  margin-bottom: 16px;
+}
+
+.Quick_text_content>p:nth-child(3) {
+  width: 740px;
+  font-size: 15px;
+  color: rgb(75 85 99);
+  opacity: 1;
+  line-height: 25px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+
+.Quick_image_container {
+  width: 60%;
+  margin: auto;
+  gap: 2rem;
+}
+
+
+.Quick_image_and_text {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.Quick_image {
+  flex-basis: 35%;
+  border-radius: 12px;
+  height: 350px;
+
+}
+
+/* STORY TIME PROFILE SETUP */
+.Quick_pic {
+  height: 100%;
+  max-width: 90%;
+}
+
+.Quick_yay img {
+  width: 50vw;
+  font-size: 10px;
+  margin-top: 15px;
+}
+
+.Quick_tree_hang img {
+  width: 50vw;
+  margin-top: 18px;
+}
+
+.Quick_read img {
+  width: 50vw;
+  margin-top: 18px;
+}
+
+
+
+/* STORY TIME INSTRUCTIONS */
+.text_Quick_container {
+  margin: auto;
+  line-height: 1.5rem;
+  margin-bottom: 15px;
+
+}
+
+.text_Quick {
+  height: 24vh;
+  text-align: center;
+
+}
+
+h3 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.text_Quick>p:nth-child(2) {
+  margin-top: 11px;
+  font-weight: 100;
+  font-size: 15px;
+
+}
+
+.text_Quick_tree_hang {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.text_Quick_yay {
+  margin-top: 10px;
+  margin-bottom: auto;
+}
+
+.coming-soon {
+  display: flex;
+  justify-content: flex-end
+}
+
+
+.coming-soon>p {
+  color: white;
+  border-radius: 24px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 7px;
+  background-color: black;
+}
+
+.text_Quick_read {
+  margin-top: 20px;
+  margin-bottom: 46px;
+  line-height: 15px;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+}
+
+
+
+/* SECTION STYLE 003 */
+
+.Bedtime_comparison {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.Bedtime_comparison_text>p:first-child {
+  display: inline-block;
+  background-color: aquamarine;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px;
+  margin-top: 15px;
+  margin-right: auto;
+  width: 11vw;
+}
+
+h4 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 546;
+  width: 66%;
+  margin: auto;
+  margin-top: 18px;
+}
+
+.Bedtime_comparison_text>p:nth-child(3) {
+  display: inline-flex;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 12px;
+  margin-bottom: 14px;
+  color: gray;
+  width: 67%;
+
+}
+
+/* Traditional-and-sleepytales-stories */
+
+
+.Traditional-and-sleepytales-stories {
+  display: flex;
+  gap: 2rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.Traditional_stories_container {
+  background-color: #ffcfd299;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+
+
+.Traditional_stories_text {
+  margin: auto;
+}
+
+
+h5 {
+  font-size: 15px;
+  font-weight: 200;
+  margin-bottom: 12px;
+}
+
+.Trad_bedtime_stories {
+  color: rgb(137, 12, 12);
+  font-weight: 700;
+  text-align: start;
+}
+
+
+.Trad_after {
+  color: rgb(75 85 99);
+  font-weight: 500;
+  line-height: 1.25rem;
+  font-size: 11px;
+}
+
+
+.Trad_subtext {
+  display: flex;
+  margin-top: 15px;
+}
+
+.Trad_subtext_container {
+  line-height: 20px;
+}
+
+.Trad_subtext_container i {
+  background-color: rgb(171, 34, 34);
+  font-size: 10px;
+  color: white;
+  border-radius: 15px;
+  align-items: center;
+
+}
+
+.Sleepytales_stories_container {
+  background-color: rgba(144, 238, 144, 0.288);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.sleepy_stories_text {
+  font-weight: 400;
+  margin: auto;
+  margin-bottom: 10px;
+
+}
+
+h5 {
+  font-size: 15px;
+  font-weight: 200;
+  margin-bottom: 12px;
+}
+
+
+.sleepy_bedtime {
+  color: green;
+  font-weight: 700;
+  text-align: start;
+}
+
+.sleep_after {
+  color: gray;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-size: 11px;
+  background-color: 12px solid red;
+}
+
+
+.Sleepytales_subtext_container {
+  margin-top: 15px;
+  justify-content: space-between;
+  line-height: 20px;
+}
+
+.Sleepytales_subtext_content i {
+  background-color: green;
+  color: white;
+  font-size: 10px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+
+
+/* BEDTIME REIMAGINED STORIES SECTION */
+.bedtime_reimagined_container {
+  align-items: center;
+}
+
+.bedtime_reimagined_sleep_container {
+  
+  background-color: rgb(247, 246, 246);
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  width: 67vw;
+  height: 55vh;
+  margin: 0 auto;
+  margin-top: 25px;
+  border: 2px solid gainsboro;
+  border-radius:15px;
+
+}
+
+
+.bedtime_reimagined_sleep_text {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+}
+
+
+.bedtime_reimagined_sleep_text h6 {
+  font-size: 3rem;
+  width: 19vw;
+}
+
+.bedtime_reimagined_sleep_text p {
+  font-size: 14px;
+  width: 100%;
+  line-height: 1.9em;
+  margin-top: 01px;/
+}
+
+.btn-outline button {
+  background-color: #171717;
+  color: white;
+  border-radius: 8px;
+  padding: 1.2em 1rem;
+  margin-top: 30px;
+}
+
+.sleep-image img {
+  max-width: 75%;
+  object-fit: cover;
+  height: auto;
+}
+
+
+
+/* FOOTER SECTION */
+
+.footer_container_contents {
+  display: flex;
+  margin-top: 38px;
+  justify-content: space-between;
+
+}
+
+.footer_sleepyside_logo {
+  width: 100%;
+}
+
+
+.footer_sleepyside_logo img {
+  align-items: start;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  object-fit: cover;
+  border: 5px solid black;
+  color: white;
+  margin-bottom: 10px;
+  background-color: black;
+  /* box-shadow: 0 5px 8px black; */
+}
+
+.footer_text {
+  margin-top: 12px;
+  color: gray;
+  font-size: 15px;
+}
+
+
+.footer_socials_icons {
+  display: flex;
+  margin-top: 20px;
+  gap: 2rem;
+}
+
+.footer_socials_icons a {
+  color: #3b3b3b9d;
+  font-size: xx-large;
+}
+
+.product_and_company_container {
+  margin-top: 45px;
+}
+
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #171717;
+}
+
+.footer_product_content {
+  display: flex;
+  gap: 15rem;
+  text-align: start;
+}
+
+
+.footer_product_content li {
+  display: block;
+  line-height: 14px;
+  margin-top: 14px;
+}
+
+
+.footer_middlemen ul {
+  margin-top: 34px;
+}
+
+.footer_mid_left ul {
+  margin-top: 38px;
+}
+
+.footer_left li {
+  margin-top: 8px;
+}
+
+
+
+/* Base styles */
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: white;
+}
+
+/* Extra small devices (phones, 0px and up) */
+@media (max-width: 575.98px) {
+  body {
+    /* background-color: rgb(38, 177, 224); */
+    font-size: 14px;
+  }
+
+
+  .nav-container {
+    display: flex;
+    /* width: 60%; */
+    /* border: 1px solid red; */
+    justify-content: space-between;
+  }
+
+  .dropdown-menu {
+    display: block;
+  }
+
+  .navbar-link {
+    display: none;
+  }
+
+  .hero_section {
+    width: 100%;
+    margin: auto;
+
+  }
+
+  .hero_section_main {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid red;/ */
+  }
+
+
+
+  .hero_section_text_body>p:first-child {
+    margin-bottom: 0 auto;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+
+  .hero_section_text_body h1 {
+    margin: 0 auto;
+    font-size: 33px;
+  }
+
+  .hero_section_text_body>p:nth-child(3) {
+    margin-bottom: 1rem;
+    font-size: 19px;
+    color: rgb(75 85 99);
+    opacity: 1;
+  }
+
+  .hero_section_button {
+    padding: 0;
+    margin: auto;
+    width: 0 auto;
+  }
+
+  .hero_section_button01 {
+    align-items: center;
+  }
+
+  .hero_Demo_button {
+    align-items: center;
+  }
+
+  .hero_customer_review {
+    display: block;
+  }
+
+  .hero_image {
+    max-width: 100%;
+  }
+
+  .Personalized_stories {
+    width: 0 auto;
+    padding: 0 auto;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .Personalized_text_stories h2 {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    font-size: 54px;
+  }
+
+  .Personalized_text_stories p:nth-child(3) {
+    width: auto;
+    font-size: 13.05px;
+    font-weight: 0;
+    margin: auto;
+    line-height: auto;
+  }
+
+  video {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+  }
+
+  .Quick_container {
+    width: 0 auto;
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .Quick_text_content {
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+  }
+
+  .Quick_text_content p:first-child {
+    width: 49%;
+    font-size: 15px;
+  }
+
+
+  .Quick_text_content h2 {
+    width: 63%;
+    font-size: 24px;
+
+  }
+
+  .Quick_text_content p:nth-child(3) {
+    width: 89%;
+    font-size: 11px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  .Quick_image_container {
+    width: 100%;
+  }
+
+  .Quick_image_and_text {
+    flex-direction: column;
+  }
+
+
+
+  .Bedtime_comparison_text>p:first-child {
+    width: 40%;
+    font-size: 15px;
+
+  }
+
+  h4 {
+    font-size: 25px;
+    font: bolder;
+  }
+
+
+
+  .Bedtime_comparison_text>p:nth-child(3) {
+    width: 90%;
+    font-size: 12.15px;
+  }
+
+  .Bedtime_comparison {
+    font-size: 25px;
+    font-weight: 0;
+
+  }
+
+  .Traditional-and-sleepytales-stories {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .bedtime_reimagined_container {
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    height: auto;
+  }
+
+  .bedtime_reimagined_sleep_container {
+    flex-direction: column;
+    width: auto;
+
+  }
+
+  .bedtime_reimagined_sleep_text h6 {
+    width: 67%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .bedtime_reimagined_sleep_text p {
+    font-size: 16px;
+  }
+
+  .btn-outline {
+    font-size: 20px;
+    border-radius: 2px;
+
+  }
+
+  .footer_text p {
+    font-size: 12px;
+
+  }
+
+
+  .footer_product_content {
+       flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    /* background-color: lightgreen; */
+    font-size: 15px;
+  }
+
+
+  .nav-container {
+    display: flex;
+        justify-content: space-between;
+  }
+
+  .dropdown-menu {
+    display: block;
+  }
+
+  .navbar-link {
+    display: none;
+  }
+
+  .hero_section {
+    width: 100%;
+    margin: auto;
+
+  }
+
+  .hero_section_main {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .hero_section_text_body>p:first-child {
+    margin-bottom: 0 auto;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+
+  .hero_section_text_body h1 {
+    margin: 0 auto;
+    font-size: 33px;
+  }
+
+  .hero_section_text_body>p:nth-child(3) {
+    margin-bottom: 1rem;
+    font-size: 19px;
+    color: rgb(75 85 99);
+    opacity: 1;
+  }
+
+  .hero_section_button {
+    padding: 0;
+    margin: auto;
+    width: 0 auto;
+  }
+
+  .hero_section_button01 {
+    align-items: center;
+  }
+
+  .hero_Demo_button {
+    align-items: center;
+  }
+
+  .hero_customer_review {
+    display: block;
+  }
+
+
+  .hero_image {
+    max-width: 100%;
+  }
+
+  .Personalized_stories {
+    width: 0 auto;
+    padding: 0 auto;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .Personalized_text_stories h2 {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    font-size: 54px;
+  }
+
+  .Personalized_text_stories p:nth-child(3) {
+    width: auto;
+    font-size: 13.05px;
+    font-weight: 0;
+    margin: auto;
+    line-height: auto;
+  }
+
+  video {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+  }
+
+  .Quick_container {
+    width: 0 auto;
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .Quick_text_content {
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+  }
+
+  .Quick_text_content p:first-child {
+    width: 49%;
+    font-size: 15px;
+  }
+
+  .Quick_text_content h2 {
+    width: 63%;
+    font-size: 24px;
+
+  }
+
+  .Quick_text_content p:nth-child(3) {
+    width: 89%;
+    font-size: 11px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  .Quick_image_container {
+    width: 100%;
+  }
+
+  .Quick_image_and_text {
+    flex-direction: column;
+  }
+
+
+
+  .Bedtime_comparison_text>p:first-child {
+    width: 40%;
+    font-size: 15px;
+
+  }
+
+  h4 {
+    font-size: 25px;
+    font: bolder;
+  }
+
+
+
+  .Bedtime_comparison_text>p:nth-child(3) {
+    width: 90%;
+    font-size: 12.15px;
+  }
+
+  .Bedtime_comparison {
+    font-size: 25px;
+    font-weight: 0;
+  }
+
+  .Traditional-and-sleepytales-stories {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .bedtime_reimagined_container {
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    height: auto;
+  }
+
+  .bedtime_reimagined_sleep_container {
+    flex-direction: column;
+    width: auto;
+
+  }
+
+  .bedtime_reimagined_sleep_text h6 {
+    width: 67%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .bedtime_reimagined_sleep_text p {
+    font-size: 16px;
+  }
+
+  .btn-outline {
+    font-size: 20px;
+    border-radius: 2px;
+
+  }
+
+  .footer_text p {
+    font-size: 12px;
+
+  }
+
+
+  .footer_product_content {
+    flex-direction: column;
+  }
+}
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    /* background-color: lightcoral; */
+  }
+
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dropdown-menu {
+    display: block;
+  }
+
+  .navbar-link {
+    display: none;
+  }
+
+  .hero_section {
+    width: 100%;
+    margin: auto;
+
+  }
+
+  .hero_section_main {
+    margin-top: auto;
+    display: flex;
+    flex-direction: colum;
+   
+  }
+
+
+  .hero_section_text_body>p:first-child {
+    margin-bottom: 0 auto;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+
+  .hero_section_text_body h1 {
+    margin: 0 auto;
+    font-size: 33px;
+  }
+
+  .hero_section_text_body>p:nth-child(3) {
+    margin-bottom: 1rem;
+    font-size: 19px;
+    color: rgb(75 85 99);
+    opacity: 1;
+  }
+
+  .hero_section_button {
+    padding: 0;
+    margin: auto;
+    width: 0 auto;
+  }
+
+  .hero_section_button01 {
+    align-items: center;
+  }
+
+  .hero_Demo_button {
+    align-items: center;
+  }
+
+  .hero_customer_review {
+    display: block;
+  }
+
+  .hero_image img {
+    width: 80%;
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .star-rating {
+    font-size: xx-small;
+  }
+
+
+  .Personalized_stories {
+    width: 0 auto;
+    padding: 0 auto;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .Personalized_text_stories h2 {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    font-size: 54px;
+  }
+
+  .Personalized_text_stories p:nth-child(3) {
+    width: auto;
+    font-size: 13.05px;
+    font-weight: 0;
+    margin: auto;
+    line-height: auto;
+  }
+
+  video {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+  }
+
+  .Quick_container {
+    width: 0 auto;
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .Quick_text_content {
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+  }
+
+  .Quick_text_content p:first-child {
+    width: 49%;
+    font-size: 15px;
+  }
+
+  .Quick_text_content h2 {
+    width: 63%;
+    font-size: 24px;
+
+  }
+
+  .Quick_text_content p:nth-child(3) {
+    width: 89%;
+    font-size: 11px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  .Quick_image_container {
+    width: 100%;
+  }
+
+  .Quick_image_and_text {
+    width: fit-content;
+  }
+
+
+
+  .Bedtime_comparison_text>p:first-child {
+    width: 40%;
+    font-size: 15px;
+
+  }
+
+  h4 {
+    font-size: 25px;
+    font: bolder;
+  }
+
+
+
+  .Bedtime_comparison_text>p:nth-child(3) {
+    width: 90%;
+    font-size: 12.15px;
+  }
+
+  .Bedtime_comparison {
+    font-size: 25px;
+    font-weight: 0;
+  }
+
+  .Traditional-and-sleepytales-stories {
+    width: 100%;
+  }
+
+  .bedtime_reimagined_container {
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    height: auto;
+  }
+
+  .bedtime_reimagined_sleep_container {
+    width: fit-content;
+    gap: 12rem;
+    color: aqua;
+    overflow: hidden;
+
+  }
+
+  .bedtime_reimagined_sleep_text h6 {
+    width: 100%;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .bedtime_reimagined_sleep_text p {
+    font-size: 16px;
+  }
+
+  .btn-outline {
+    font-size: 20px;
+    border-radius: 2px;
+
+  }
+
+  .footer_text p {
+    font-size: 12px;
+
+  }
+
+
+  .footer_product_content {
+    gap: 20px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    /* background-color: lightgoldenrodyellow; */
+  }
+
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dropdown-menu {
+    display: block;
+  }
+
+  .navbar-link {
+    display: none;
+  }
+
+  .hero_section {
+    width: 100%;
+    margin: auto;
+
+  }
+
+  .hero_section_main {
+    margin-top: auto;
+    display: flex;
+    /* flex-direction: column; */
+  }
+
+  .hero_section_text_body>p:first-child {
+    margin-bottom: 0 auto;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+
+  .hero_section_text_body h1 {
+    margin: 0 auto;
+    font-size: 33px;
+  }
+
+  .hero_section_text_body>p:nth-child(3) {
+    margin-bottom: 1rem;
+    font-size: 19px;
+    color: rgb(75 85 99);
+    opacity: 1;
+  }
+
+  .hero_section_button {
+    padding: 0;
+    margin: auto;
+    width: 0 auto;
+  }
+
+  .hero_section_button01 {
+    align-items: center;
+  }
+
+  .hero_Demo_button {
+    align-items: center;
+  }
+
+  .hero_customer_review {
+    display: block;
+  }
+
+  .hero_image img {
+    width: 80%;
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .star-rating {
+    font-size: xx-small;
+  }
+
+
+  .Personalized_stories {
+    width: 0 auto;
+    padding: 0 auto;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .Personalized_text_stories h2 {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    font-size: 54px;
+  }
+
+  .Personalized_text_stories p:nth-child(3) {
+    width: auto;
+    font-size: 13.05px;
+    font-weight: 0;
+    margin: auto;
+    line-height: auto;
+  }
+
+  video {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+  }
+
+  .Quick_container {
+    width: 0 auto;
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .Quick_text_content {
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+  }
+
+  .Quick_text_content p:first-child {
+    width: 49%;
+    font-size: 15px;
+  }
+
+  .Quick_text_content h2 {
+    width: 63%;
+    font-size: 24px;
+
+  }
+
+  .Quick_text_content p:nth-child(3) {
+    width: 89%;
+    font-size: 11px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  .Quick_image_container {
+    width: 100%;
+  }
+
+  .Quick_image_and_text {
+    width: fit-content;
+  }
+
+
+
+  .Bedtime_comparison_text>p:first-child {
+    width: 40%;
+    font-size: 15px;
+
+  }
+
+  h4 {
+    font-size: 25px;
+    font: bolder;
+  }
+
+
+
+  .Bedtime_comparison_text>p:nth-child(3) {
+    width: 90%;
+    font-size: 12.15px;
+  }
+
+  .Bedtime_comparison {
+    font-size: 25px;
+    font-weight: 0;
+  }
+
+  .Traditional-and-sleepytales-stories {
+    width: 100%;
+  }
+
+  .bedtime_reimagined_container {
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    height: auto;
+  }
+
+  .bedtime_reimagined_sleep_container {
+    width: fit-content;
+    gap: 12rem;
+    color: aqua;
+    overflow: hidden;
+
+  }
+
+  .bedtime_reimagined_sleep_text h6 {
+    width: 100%;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .bedtime_reimagined_sleep_text p {
+    font-size: 16px;
+  }
+
+  .btn-outline {
+    font-size: 20px;
+  }
+
+  .footer_text p {
+    font-size: 12px;
+
+  }
+
+
+  .footer_product_content {
+    gap: 20px;
+  }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    /* background-color: red; */
+    /* font-size: 18px; */
+  }
+}
+
+
+
+/* @media (min-width: 300px) and (max-width: 475px) {} */
